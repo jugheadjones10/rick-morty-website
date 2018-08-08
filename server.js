@@ -1,6 +1,7 @@
 var express = require("express");
 var hbs = require("hbs");
 
+var PORT = process.env.PORT || 5000;
 var app = express();
 
 app.set("view engine", hbs);
@@ -15,7 +16,7 @@ app.get("/", (req, res) => {
 
 
 
-app.listen(5000);
+app.listen(PORT);
 
 //Potential problems:
 //1. CSS is not taken from Bootstrap properly
