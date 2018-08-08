@@ -1,0 +1,470 @@
+/*
+Go to Google.fonts to download fonts
+*/
+body{
+    font-family: 'Oxygen', sans-serif;
+    background-color: cyan;
+    color: blue;
+    font-size: 16px;
+}
+
+#header-nav{
+    background-color: crimson;
+}
+
+#logo-img{
+    background: url("https://appstickers-cdn.appadvice.com/992640880/827211813/6b3759c11f20b6de6f47d606f869cf17-0.png") no-repeat ;
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    background-size: cover;
+}
+
+#logo{
+    float: left;
+    margin-right: 5px;
+}
+
+.navbar{
+    padding-left: 6px;
+}
+
+.navbar .container{
+    margin-right: 5px;
+    padding-right: 5px;
+    width: 100vw;
+}
+
+.navbar-brand{
+    font-family: 'Galada', cursive;
+    margin-top: 16px;
+}
+
+.navbar-brand h1{
+    color: #3ef9a9;
+    font-size: 1.4em;
+    line-height: 0.9;
+    text-shadow: 3px 3px 2px darkolivegreen; 
+    margin-bottom: 0px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+
+.navbar-brand span{
+    font-size: 0.9em;
+    color: greenyellow;
+    margin-left: 3px;
+}
+
+
+.navbar-toggler{
+    background-color: aqua;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    
+}
+
+#collapse-list-header{
+    padding-top: 8px;
+}
+
+.nav-item{
+    font-size: 1.25em;
+    font-family: 'Galada', cursive;
+}
+
+.navbar-toggler, .navbar-toggler-icon{
+    border: 1px solid darkorchid;
+}
+
+#tel-link{
+    line-height: 12px;
+    margin-top: 8px;
+}
+
+#replacement-tel-link{
+    font-size: 15px;
+    margin-left: 4px;
+}
+
+#tel-link div{
+    font-size: 0.5em;
+    padding-left: 7px;
+}
+
+/*Main Content to Front Page*/
+#main-content{
+    position: relative;
+}
+
+.container-fluid .jumbotron{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 500px;
+    
+    background-image: url("http://natalt.co.uk/wp-content/uploads/2017/02/rick-morty-chars-natalt.png");
+    background-position: center;
+    background-size: cover;
+   
+    box-shadow: 5px 5px 10px steelblue;
+    border: 5px crimson solid;
+}
+
+#row-encompasser{
+    margin-left: -15px;
+    margin-right: -15px;  
+}
+
+#categories, #models, #map{
+    height: 250px;
+    width: 100%;
+    border: 5px solid crimson;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#categories:hover, #models:hover, #map:hover{
+    box-shadow: 3px 3px 10px darkorchid;
+}
+
+#categories{
+    background-image: url(https://media.giphy.com/media/l41lQfE3PL0adZlHq/giphy.gif);
+    background-position: center;
+    background-size: cover; 
+}
+
+#models{
+    background-image: url(https://media.giphy.com/media/l41lQfE3PL0adZlHq/giphy.gif);
+    background-position: center;
+    background-size: cover; 
+}
+
+#map{
+    background-image: url(https://media.giphy.com/media/l41lQfE3PL0adZlHq/giphy.gif);
+    background-position: center;
+    background-size: cover; 
+}
+
+#categories span, #models span, #map span{
+    font-family: 'Galada', cursive;
+    color: #3ef9a9;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    background-color: crimson;
+    opacity: 0.75;
+}
+
+.card-footer{
+    font-size: 12.5px;
+    background-color: crimson;
+    color: #3ef9a9;
+}
+
+.card-footer .row{
+    margin-top: 15px;
+}
+
+#hours-para{
+    line-height: 25px;
+}
+
+#distinguished-guests-para{
+    line-height: 30px;
+    font-size: 12px;
+}
+
+#customer-review-para{
+    font-style: italic;
+}
+
+h6{
+    color: #9eebc9;
+    font-size: 1.4em;
+}
+
+.card-footer hr{
+    background-color: greenyellow;
+    height: 0.5px;
+    opacity: 0.7;
+    
+}
+
+.text-center{
+    margin-top: 15px;
+}
+
+/*Main Content to Front Page-End*/
+
+/*Content of "Categories" Page*/
+
+#categories-title{
+    font-family: 'Galada', cursive;
+    margin-bottom: 0px;
+}
+
+#categories-title + div{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+
+.category-tile{
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border: 5px solid crimson;
+    margin: 0px auto 15px;
+
+}
+
+.category-tile:hover{
+    box-shadow: 3px 3px 10px darkorchid;
+}
+
+.category-tile span{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    font-family: 'Galada', cursive;
+    color: #3ef9a9;
+  
+    font-size: 20px;
+    background-color: crimson;
+    opacity: 0.75;
+}
+
+
+/*Content of "Categories" end*/
+
+
+/*Content of "singe-categories" start*/
+
+
+/*Rmb-you can't directly specify the width of col-md-6, etc. classes!*/
+
+.menu-p-pair-row hr{
+    background-color: greenyellow;
+    height: 1.5px;
+    width: 70%;
+}
+.menu-p-pair{
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+    height: 190px;  
+    position: relative;
+}
+
+.menu-price-and-photo{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.menu-item-price{
+    /* Weirdly, width 100% causes an overflow if position is set to absolute. Everything works fine if position is left as it is*/
+    width: 211.661px;
+    text-align: center;
+    background-color: coral;
+    position: absolute;
+    bottom: 0;
+    border: 2.5px maroon solid;
+}
+
+.menu-item-price span{
+    font-size: 8px;
+}
+
+.menu-item-photo{
+    position: relative;
+    height: 150px;
+    border: 5px chocolate solid;
+}
+
+/*
+get hr to work 
+*/
+
+.menu-item-photo div{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-weight: 1000;
+    width: 50px;
+    text-align: center;
+    background-color: chocolate;
+    margin-right: -5px;
+    margin-bottom: -5px;
+
+}
+
+.menu-item-photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.menu-item-description{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+.menu-item-title{
+    font-family: 'Galada', cursive;
+    font-size: 22px;
+    color: crimson;
+}
+
+.menu-item-details-encompasser{
+    height: 100%;
+    /*Only when the height is thus specified does scrollbar work*/
+}
+
+.menu-item-details-encompasser:hover{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.menu-item-details{
+    font-size: 15px;
+}
+
+
+/*Content of "single-categories" end*/
+
+
+@media (max-width: 373px){
+    #replacement-tel-link{
+        display: none;
+    }
+
+}
+
+@media (max-width: 504px){
+    .menu-item-title{
+        font-size: 4vw;
+    }
+
+    .menu-item-price{
+        font-size: 2.5vw;
+        width: 35vw;
+    }
+
+    .menu-item-description{
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 575.98px) { 
+    .navbar-brand h1{
+        font-size: 6vw;
+    }
+
+    #collapse-list-header{
+        width: 200px;
+    }
+
+    .card-footer p, .card-footer h6{
+        text-align: center;
+    }
+
+    #customer-review-para{
+        text-align: left;
+    }
+
+    #replacement-tel-link{
+       font-size: 3.2vw;
+    }
+
+
+}
+
+@media (max-width: 767.98px) { 
+
+    .menu-p-pair{
+        width: 75vw;
+        height: 300px; 
+    }
+
+    .menu-item-details-encompasser{
+        position: absolute;
+        bottom: -27px;  
+    }
+    
+    .menu-item-price{
+        position: relative;
+        margin-left: auto;
+        margin-top: 6px;
+    }
+
+    .menu-item-description{
+        position: absolute;
+        bottom: 38px;
+        height: 100px;
+    }
+
+    .menu-item-details{
+        margin-top: 11px;
+    }
+
+    .menu-p-pair{
+        margin-bottom: -25px;
+    }
+
+}
+
+@media (max-width: 991.98px) { 
+    
+}
+
+@media (max-width: 1199.98px) { 
+
+}
+
+@media (min-width: 575.5px) and (max-width: 767.98px){
+    #Home{
+        font-size: 0px;
+        background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/649739-200.png") no-repeat ;             
+        width: 36px;
+        height: 36px;
+        background-size: cover;
+        margin: 6.5px;
+
+    }
+
+    #Link{
+        font-size: 0px;
+        background: url("https://cdn3.iconfinder.com/data/icons/glypho-generic-icons/64/info-circle-outline-512.png") no-repeat ;
+        width: 36px;
+        height: 36px;
+        background-size: cover;
+        margin: 6.5px;
+       
+    }
+
+    #Dropdown{
+        font-size: 0px;
+        background: url("https://png.icons8.com/ios/1600/rick-sanchez-filled.png") no-repeat ;
+        width: 36px;
+        height: 36px;
+        background-size: cover;
+        margin: 6.5px;
+    }
+
+    #Home:hover, #Link:hover, #Dropdown:hover{
+        opacity: 1.2;
+        background-color: red;
+    }
+}
