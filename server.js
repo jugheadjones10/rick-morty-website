@@ -16,6 +16,10 @@ app.get("/", (req, res) => {
     res.render("home.hbs", {});
 })
 
+app.get("/items", (req, res) => {
+    res.render("items.hbs", {});
+})
+
 
 
 app.listen(PORT);
